@@ -5,6 +5,7 @@ var teclas = {
     RIGHT: 39
 };
 //console.log(teclas);
+
 document.addEventListener("keyup", dibujarTeclado); // escuhador de eventos con el evento keyup para las teclas presionadas y al soltarlas genera un evento
 var cuadrito = document.getElementById("eventoPorTecla");
 var papel = cuadrito.getContext("2d");
